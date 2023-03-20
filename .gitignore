@@ -1,9 +1,17 @@
-# Editors.
-*.sw*
-.vscode
-.DS_Store
-.cache/
+# .gitignore
 
-# Build directory.
+## OS
+**/.DS_Store
+**/desktop.ini
+**/Thumbs.db
+
+## IDE
+*.sw*
+.vscode/
+.cache/
+.idea/
+cmake-build-debug/
+
+## Cxx
 build/
 out/
